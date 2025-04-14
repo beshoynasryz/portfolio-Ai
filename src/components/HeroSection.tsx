@@ -1,5 +1,5 @@
 
-import { ArrowDown, GitHub, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useRef } from "react";
 
@@ -58,7 +58,7 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
             >
-              <GitHub size={20} />
+              <Github size={20} />
               <span className="sr-only">GitHub</span>
             </a>
             <a 
